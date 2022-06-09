@@ -1,0 +1,109 @@
+$grayText: #A5A5A5;
+$blackText: #212529;
+$lightBorder: #dddbdb;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+  margin: 55px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  .reset {
+    width: 100px;
+  }
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 37px;
+    line-height: 44.16px;
+    font-weight: 700;
+    color: $grayText;
+  }
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55.2px;
+    line-height: 66.24px;
+    font-weight: 700;
+  }
+}
+.date {
+  font-family: 'Lora', serif;
+  width: 100%;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $lightBorder;
+  align-items: center;
+  color: $grayText;
+}
+.date-month-year {
+  display: flex;
+}
+.month-year {
+  display: flex;
+  flex-direction: column;
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+  }
+}
+#num {
+  height: 100%;
+  width: 68px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+}
+.week p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.write-input {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  input {
+    min-width: 200px;
+    width: 30%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 1px solid $lightBorder;
+    border-left: 1px solid $lightBorder;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  button {
+    min-width: 60px;
+    width: 5%;
+    border: none;
+    background-color: $lightBorder;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  button:hover {
+    background-color: #a1a1a1;
+  }
+}
+.reset {
+  background: none;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.46);
+  transition: .3s;
+  font-size: 18px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.reset:hover {
+  background-color: rgb(255, 0, 0);
+}

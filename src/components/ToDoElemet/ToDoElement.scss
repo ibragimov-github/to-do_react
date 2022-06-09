@@ -1,0 +1,43 @@
+
+
+.item-text {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #dddbdb;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  div {
+    width: 95%;
+    padding: 0 2%;
+    transition: .3s;
+  }
+  div:hover {
+    background-color: rgb(225, 225, 225);
+  }
+  button {
+    width: 70px;
+    height: 100%;
+    border-top: 2px solid #dddbdb;
+    border-left: 2px solid #dddbdb;
+    border-right: 2px solid #dddbdb;
+    border-bottom: none;
+    background: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    transition: .5s;
+    font-size: 19px;
+  }
+  button:hover {
+    background-color: red;
+    color: #fff;
+    border: 2px solid red;
+    border-bottom: none;
+  }
+}
+.strike {
+  div {
+    text-decoration: line-through;
+  }
+}
